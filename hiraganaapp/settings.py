@@ -39,7 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'actions',
 ]
-
+VERIFICATION_TOKEN = os.environ.get('VERIFICATION_TOKEN')
+OAUTH_ACCESS_TOKEN = os.environ.get('OAUTH_ACCESS_TOKEN')
+BOT_USER_ACCESS_TOKEN = os.environ.get('BOT_USER_ACCESS_TOKEN')
+CLIENT_ID = os.environ.get('CLIENT_ID')
+CLIENT_SECRET = os.environ.get('CLIENT_SECRET')
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
