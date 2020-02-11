@@ -1,3 +1,6 @@
+# https://medium.com/@ronakbansal/how-to-build-slack-bot-with-python-django-using-events-api-670460930172
+# This is the toutorial
+
 from django.shortcuts import render
 
 # Create your views here.
